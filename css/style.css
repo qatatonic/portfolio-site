@@ -113,7 +113,7 @@ img {
 
   .container {
     padding: 0 15px;
-    max-width: 1200px;
+    max-width: 1920px;
   }
 
   .row {
@@ -162,9 +162,4 @@ img {
 
   main {
     padding-top: 250px;
-  }
-
-  .sicon {
-    width: 32px;
-    height: 32px;
   }
