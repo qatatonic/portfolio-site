@@ -5,7 +5,29 @@ Title (brown): #AF8F5E
 Header (black gray): #33312F
 */
 
-body {
+* {
+    box-sizing: border-box;
+  }
+
+  header {
+    text-align: center;
+    background-color: #ffe4c4;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+  }
+
+  .css-box-shadow{
+	/*start ------------*/
+	width: [object Object]px; 
+	height: [object Object]px; 
+	background: #AF8F5E; 
+	border: solid #AF8F5E 1px; 
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+}
+  body {
     background-color: #F5F4EC;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
@@ -85,4 +107,64 @@ img {
 
   .button.contact:active {
     color: #000000;
+  }
+
+  /* Layout styling */
+
+  .container {
+    padding: 0 15px;
+    max-width: 1200px;
+  }
+
+  .row {
+    margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  }
+
+  #work .row { 
+    padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; 
+ }
+
+  #hero h1 {
+    text-align: center; /* Centers text */
+  }
+
+  .logo {
+    max-width: 250px;
+  }
+
+  nav > ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4a4a4a;
+  }
+
+  nav {
+    display: block;
+    width: 100%;
+  }
+
+  #hero {
+    background-color: #F5F4EC;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+  }
+
+  main {
+    padding-top: 250px;
+  }
+
+  .sicon {
+    width: 32px;
+    height: 32px;
   }
