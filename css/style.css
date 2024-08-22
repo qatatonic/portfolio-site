@@ -169,6 +169,16 @@ img {
     padding-top: 250px;
   }
 
+  .phone {
+    width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .me {
+    width: 50%;
+  }
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
