@@ -7,20 +7,25 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Quyen Voyles UX</title>
+    <title>Vitae</title>
 </head>
 <body>
     <header class="css-box-shadow">
         <div class="container">
+            <div class="navtoggle" id="myNavtoggle">
             <img class="logo" src="./img/logo.png" alt="logo">
             <nav>
                 <ul class="navigation">
                     <li><a href="index.html#projects">Work</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+                    <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+                        <i class="fa-solid fa-bars"></i></a></li>
                 </ul>    
             </nav>
+            </div><!-- end navtoggle -->
         </div>
     </header>
     <main>
@@ -171,5 +176,10 @@
                 </div>
             </div>
         </footer>
+        <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
 </body>
 </html>
